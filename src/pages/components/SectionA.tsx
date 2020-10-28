@@ -55,7 +55,7 @@ const useStyles = makeStyles((theme) => ({
         lineHeight: "100%",
         letterSpacing: "-1.5px",
         [theme.breakpoints.down('sm')]: {
-            fontSize: "20px",
+            fontSize: "24px",
             letterSpacing: "-1px"
         },
     },
