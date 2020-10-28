@@ -36,14 +36,24 @@ const useStyles = makeStyles((theme) => ({
             flexDirection: "column",
         }
     },
-    h2: {
+    sectionTitle: {
         fontSize: "48px",
         margin: 10,
-        fontWeight: 900,
+        fontWeight: 600,
         lineHeight: "100%",
         letterSpacing: "-1.5px",
         [theme.breakpoints.down('sm')]: {
             fontSize: "40px",
+            letterSpacing: "-1px"
+        },
+    },
+    sectionSubtitle: {
+        fontSize: "28px",
+        margin: 20,
+        lineHeight: "100%",
+        letterSpacing: "-1.5px",
+        [theme.breakpoints.down('sm')]: {
+            fontSize: "20px",
             letterSpacing: "-1px"
         },
     },
@@ -79,9 +89,16 @@ export default function SectionB() {
                         <Typography
                             align="center"
                             component="h2"
-                            className={classes.h2}
+                            className={classes.sectionTitle}
                         >
                             Tome decisões melhores com indicadores fundamentalistas
+                        </Typography>
+                        <Typography
+                            align="center"
+                            component="h4"
+                            className={classes.sectionSubtitle}
+                        >
+                            Clique no símbolo de dúvida para saber o que significa cada indicador
                         </Typography>
                     </Grid>
 

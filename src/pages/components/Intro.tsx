@@ -29,7 +29,7 @@ const useStyles = makeStyles((theme) => ({
     h1: {
         fontSize: "72px",
         margin: 30,
-        fontWeight: 900,
+        fontWeight: 600,
         lineHeight: "100%",
         letterSpacing: "-3px",
         [theme.breakpoints.down('sm')]: {
@@ -77,7 +77,7 @@ export default function Intro() {
                             component="h3"
                             className={classes.h3}
                         >
-                            Automatic time-tracking solution for freelancers and makers. Remove the need to start or pause a timer.
+                            Uma ferramenta minimalista para obter informações de empresas brasileiras e tomar decisões melhores em seus investimentos.
                         </Typography>
                     </Grid>
 
