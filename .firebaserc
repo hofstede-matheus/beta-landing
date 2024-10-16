@@ -1,5 +1,15 @@
 {
   "projects": {
-    "default": "beta-landing-react"
-  }
+    "default": "hofsdev"
+  },
+  "targets": {
+    "hofsdev": {
+      "hosting": {
+        "beta-hofsdev": [
+          "beta-hofsdev"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }
