@@ -15,6 +15,7 @@ jobs:
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: "${{ secrets.GITHUB_TOKEN }}"
-          firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT_BETA_LANDING_REACT }}"
+          firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT_HOFSDEV }}"
           channelId: live
-          projectId: beta-landing-react
+          target: beta-hofsdev
+          projectId: hofsdev
